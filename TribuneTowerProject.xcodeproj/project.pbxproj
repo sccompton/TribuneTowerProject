@@ -952,11 +952,6 @@
 		9EB4683518BE55A40086A913 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB4683418BE55A40086A913 /* Default-568h@2x.png */; };
 		9EB4683718BE56F60086A913 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB4683618BE56F60086A913 /* Default.png */; };
 		9EB4683918BE57000086A913 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB4683818BE57000086A913 /* Default@2x.png */; };
-		9EB4683B18BE5BA60086A913 /* TribuneByDay3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9EB4683A18BE5BA60086A913 /* TribuneByDay3.jpeg */; };
-		9EB4683D18BE5F6F0086A913 /* TribuneByDayShort.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9EB4683C18BE5F6F0086A913 /* TribuneByDayShort.jpeg */; };
-		9EB4683F18BE631E0086A913 /* TribuneByDay4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9EB4683E18BE631E0086A913 /* TribuneByDay4.jpeg */; };
-		9EB4684118BE64550086A913 /* TribuneByDay5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9EB4684018BE64550086A913 /* TribuneByDay5.jpeg */; };
-		9EB4684318BE6B710086A913 /* TribuneByDay8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9EB4684218BE6B710086A913 /* TribuneByDay8.jpeg */; };
 		9EB4684518BE70B40086A913 /* TribuneByDay11.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9EB4684418BE70B40086A913 /* TribuneByDay11.jpeg */; };
 		9EC4718F18B512D50032EEFE /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC4718E18B512D50032EEFE /* WelcomeViewController.m */; };
 		9EC471E018BA15A70032EEFE /* AcknowledgementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC471DF18BA15A70032EEFE /* AcknowledgementsViewController.m */; };
@@ -1928,15 +1923,9 @@
 		9EB4683418BE55A40086A913 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		9EB4683618BE56F60086A913 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		9EB4683818BE57000086A913 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		9EB4683A18BE5BA60086A913 /* TribuneByDay3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TribuneByDay3.jpeg; sourceTree = "<group>"; };
-		9EB4683C18BE5F6F0086A913 /* TribuneByDayShort.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TribuneByDayShort.jpeg; sourceTree = "<group>"; };
-		9EB4683E18BE631E0086A913 /* TribuneByDay4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TribuneByDay4.jpeg; sourceTree = "<group>"; };
-		9EB4684018BE64550086A913 /* TribuneByDay5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TribuneByDay5.jpeg; sourceTree = "<group>"; };
-		9EB4684218BE6B710086A913 /* TribuneByDay8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TribuneByDay8.jpeg; sourceTree = "<group>"; };
 		9EB4684418BE70B40086A913 /* TribuneByDay11.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TribuneByDay11.jpeg; sourceTree = "<group>"; };
 		9EC4718D18B512D50032EEFE /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
 		9EC4718E18B512D50032EEFE /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
-		9EC471DC18B9C9EE0032EEFE /* CoachMarks5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CoachMarks5.png; path = /Users/sajscompton/Documents/TribuneTowerProject/CTTRocks/CoachMarks5.png; sourceTree = "<absolute>"; };
 		9EC471DE18BA15A70032EEFE /* AcknowledgementsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcknowledgementsViewController.h; sourceTree = "<group>"; };
 		9EC471DF18BA15A70032EEFE /* AcknowledgementsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcknowledgementsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -2239,10 +2228,6 @@
 			children = (
 				9EB4683418BE55A40086A913 /* Default-568h@2x.png */,
 				9EB4683818BE57000086A913 /* Default@2x.png */,
-				9EB4683E18BE631E0086A913 /* TribuneByDay4.jpeg */,
-				9EB4683A18BE5BA60086A913 /* TribuneByDay3.jpeg */,
-				9EB4684018BE64550086A913 /* TribuneByDay5.jpeg */,
-				9EB4683C18BE5F6F0086A913 /* TribuneByDayShort.jpeg */,
 				9EB4683618BE56F60086A913 /* Default.png */,
 				1864397B18B4277000EFFB9D /* topDown Images */,
 				88EE9AC718ABF48B00351DD2 /* Buildings */,
@@ -2874,13 +2859,11 @@
 				9EB4683218BE3AA20086A913 /* Icon_Share_44x_white.png */,
 				9EB4683018BE3A990086A913 /* Icon_Search_44x_white.png */,
 				9EB4684418BE70B40086A913 /* TribuneByDay11.jpeg */,
-				9EB4684218BE6B710086A913 /* TribuneByDay8.jpeg */,
 				9E7124C118BD52540084B475 /* TribNightView.jpeg */,
 				88F4061F18BD5110005066B1 /* CTTPanoramaV2.jpg */,
 				18EF52B518BD373D0025127F /* Icon_!_44x_white.png */,
 				18EF52B618BD373D0025127F /* Icon_?_44x_white.png */,
 				9E7F1AD218BD67510026C797 /* CoachMarksWBackground2.png */,
-				9EC471DC18B9C9EE0032EEFE /* CoachMarks5.png */,
 			);
 			name = Others;
 			sourceTree = "<group>";
@@ -3188,7 +3171,6 @@
 				88F651B818B25EF6009074BE /* Text082_William Henry Harrison Home.rtf in Resources */,
 				88F408E018BD5C1F005066B1 /* R085 Independence Hall.jpg in Resources */,
 				88F407FE18BD5C1F005066B1 /* R010 WTC-568h@2x.jpg in Resources */,
-				9EB4683B18BE5BA60086A913 /* TribuneByDay3.jpeg in Resources */,
 				88F4084518BD5C1F005066B1 /* R033 Cologne Cathedral@2x.jpg in Resources */,
 				88F4096918BD5C1F005066B1 /* R131 Petrified Forest-568h@2x.jpg in Resources */,
 				88F405D618BD3A36005066B1 /* S080 Dome of St. Peters Basilica.jpg in Resources */,
@@ -3202,7 +3184,6 @@
 				88F4FFCB18BD392A005066B1 /* B020 Trondheim Cathedral.jpg in Resources */,
 				88F4086A18BD5C1F005066B1 /* R046 Forbidden City-568h@2x.jpg in Resources */,
 				88F408E218BD5C1F005066B1 /* R086 Walls of Derry-568h@2x.jpg in Resources */,
-				9EB4683D18BE5F6F0086A913 /* TribuneByDayShort.jpeg in Resources */,
 				88F4098F18BD5C1F005066B1 /* R143 Yellowstone National Park@2x.jpg in Resources */,
 				88F405EF18BD3A36005066B1 /* S105 Custer Battlefield.jpg in Resources */,
 				88F405C218BD3A36005066B1 /* S060 Tainitzkaya Tower.jpg in Resources */,
@@ -3275,7 +3256,6 @@
 				88F408FC18BD5C1F005066B1 /* R094 Old Swedes Church@2x.jpg in Resources */,
 				88F4FFEA18BD392A005066B1 /* B050 Willem_Koekkoek_Schreierstoren.jpg in Resources */,
 				88F407E618BD5C1F005066B1 /* R002 Washingtons Landing Place-568h@2x.jpg in Resources */,
-				9EB4684318BE6B710086A913 /* TribuneByDay8.jpeg in Resources */,
 				88F4080418BD5C1F005066B1 /* R012 Ehrenbreitstein-568h@2x.jpg in Resources */,
 				88F407EC18BD5C1F005066B1 /* R004 Trenton-568h@2x.jpg in Resources */,
 				88F4088618BD5C1F005066B1 /* R055 Riga.jpg in Resources */,
@@ -3590,10 +3570,8 @@
 				88F408AA18BD5C1F005066B1 /* R067 St. Johns Episcopal Church.jpg in Resources */,
 				88F4095518BD5C1F005066B1 /* R124 Bloody Nose.jpg in Resources */,
 				88F4094A18BD5C1F005066B1 /* R120 City Hall@2x.jpg in Resources */,
-				9EB4684118BE64550086A913 /* TribuneByDay5.jpeg in Resources */,
 				88F405D718BD3A36005066B1 /* S081 Fort Ticonderoga.jpg in Resources */,
 				88F651B118B25EF6009074BE /* Text075_The Great Wall of China.rtf in Resources */,
-				9EB4683F18BE631E0086A913 /* TribuneByDay4.jpeg in Resources */,
 				88F4058B18BD3A36005066B1 /* S005 Leiden.jpg in Resources */,
 				88F4090F18BD5C1F005066B1 /* R101 Sibyl’s Cave-568h@2x.jpg in Resources */,
 				88F407F818BD5C1F005066B1 /* R008 Butter Tower-568h@2x.jpg in Resources */,

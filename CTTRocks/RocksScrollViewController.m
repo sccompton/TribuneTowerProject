@@ -254,7 +254,7 @@
 
 //Add share functionality
 - (void)didTapAction {
-    NSString *shareString = @"Tribune Tower, Chicago";
+    NSString *shareString = @"Wish you were here! Tribune Tower, Chicago";
     UIImage *shareImage = ((Rock*)rockArray[previousPage]).image;
     self.selectedRock = previousPage;
     NSArray *activityItems = [NSArray arrayWithObjects:shareString, shareImage, nil];
