@@ -40,15 +40,15 @@ static NSArray *assestPaths;
 {
     for (int i = 0; i < assestPaths.count; i++)
     {
-        NSString *searchStr= @"CTTRocks.app/";
+        NSString *searchStr= @"TribuneTowerProject.app/";
         NSString *accessPath = assestPaths[i];
         
         if (!([[[accessPath substringFromIndex:accessPath.length - 7] substringToIndex:1] isEqualToString:@"@"]))
         {
             
             NSRange range = [assestPaths[i] rangeOfString:searchStr];            
-            NSInteger rockNumber = [[[assestPaths[i] substringFromIndex:range.location +14] substringToIndex:3] integerValue];
-            NSString *kindOfImage = [[assestPaths[i] substringFromIndex:range.location +13] substringToIndex:1];
+            NSInteger rockNumber = [[[assestPaths[i] substringFromIndex:range.location +25] substringToIndex:3] integerValue];
+            NSString *kindOfImage = [[assestPaths[i] substringFromIndex:range.location +24] substringToIndex:1];
             
             if (rockNumber > 0 && [kindOfImage isEqualToString:@"R"])
             {
@@ -77,10 +77,10 @@ static NSArray *assestPaths;
 {
     for (int i = 0; i < assestPaths.count; i++)
     {
-        NSString *searchStr= @"CTTRocks.app/";
+        NSString *searchStr= @"TribuneTowerProject.app/";
         NSRange range = [assestPaths[i] rangeOfString:searchStr];
         
-        NSInteger rockNumber = [[[assestPaths[i] substringFromIndex:range.location +17] substringToIndex:3] integerValue];
+        NSInteger rockNumber = [[[assestPaths[i] substringFromIndex:range.location +28] substringToIndex:3] integerValue];
         
         if (rockNumber > 0)
         {

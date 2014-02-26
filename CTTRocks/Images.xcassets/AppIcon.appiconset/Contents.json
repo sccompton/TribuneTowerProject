@@ -3,19 +3,19 @@
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "CTT App Icon small bluex58.png",
+      "filename" : "CTT App Icon bluex58.png",
       "scale" : "2x"
     },
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "CTT App Icon small bluex80.png",
+      "filename" : "CTT App Icon bluex80.png",
       "scale" : "2x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "CTT App Icon small bluex120.png",
+      "filename" : "CTT App Icon bluex120.png",
       "scale" : "2x"
     }
   ],

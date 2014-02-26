@@ -10,6 +10,7 @@
 #import "MainCollectionViewController.h"
 #import "Rock.h"
 #import <QuartzCore/QuartzCore.h>
+#import "CSAnimationView.h"
 
 #define DEGREES_RADIANS(angle) ((angle) / 180.0 * M_PI)
 
@@ -89,10 +90,9 @@
                                                            [UIColor colorWithRed:245.0/255.0 green:245.0/255.0 blue:245.0/255.0 alpha:1.0], NSForegroundColorAttributeName,
                                                            shadow, NSShadowAttributeName,
                                                            [UIFont fontWithName:@"HelveticaNeue-CondensedBlack" size:21.0], NSFontAttributeName, nil]];
-    self.title = @"Tribune Rocks";
+    self.title = @"Chicago Rocks";
     
     //Programmatically add share buttons
-    UIBarButtonItem *shareItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:@selector(didTapAction)];
     
     UIImage* infoImage = [UIImage imageNamed:@"Icon_?_44x_white.png"];
     CGRect frameimg = CGRectMake(0, 0, 22, 22);
@@ -104,6 +104,26 @@
     UIBarButtonItem *infoItem = [[UIBarButtonItem alloc]
                                  initWithCustomView:infoButton];
     
+    UIImage* shareImage = [UIImage imageNamed:@"Icon_Share_44x_white.png"];
+    CGRect shareImageFrame = CGRectMake(0, 0, 33, 33);
+    UIButton *shareButton = [[UIButton alloc] initWithFrame:shareImageFrame];
+    [shareButton setBackgroundImage:shareImage forState:UIControlStateNormal];
+    [shareButton addTarget:self action:@selector(didTapAction)
+         forControlEvents:UIControlEventTouchUpInside];
+    
+    UIBarButtonItem *shareItem = [[UIBarButtonItem alloc]
+                                 initWithCustomView:shareButton];
+    
+    UIImage* searchImage = [UIImage imageNamed:@"Icon_Search_44x_white.png"];
+    CGRect searchImageFrame = CGRectMake(0, 0, 33, 33);
+    UIButton *searchButton = [[UIButton alloc] initWithFrame:searchImageFrame];
+    [searchButton setBackgroundImage:searchImage forState:UIControlStateNormal];
+    [searchButton addTarget:self action:@selector(goToSearchPage)
+          forControlEvents:UIControlEventTouchUpInside];
+    
+    UIBarButtonItem *searchItem = [[UIBarButtonItem alloc]
+                                  initWithCustomView:searchButton];
+
     UIImage* acknowledgementImage = [UIImage imageNamed:@"Icon_!_44x_white.png"];
     CGRect acknowledgementImageFrame = CGRectMake(0, 0, 22, 22);
     UIButton *acknowledgementButton = [[UIButton alloc] initWithFrame:acknowledgementImageFrame];
@@ -114,9 +134,6 @@
     UIBarButtonItem *acknowledgmentsItem = [[UIBarButtonItem alloc]
                                             initWithCustomView:acknowledgementButton];
     
-    UIBarButtonItem *searchItem = [[UIBarButtonItem alloc]
-                                   initWithBarButtonSystemItem:UIBarButtonSystemItemSearch target:self
-                                   action:@selector(goToSearchPage)];
     
     NSArray *actionButtonItems = @[shareItem, infoItem];
     self.navigationItem.rightBarButtonItems = actionButtonItems;
@@ -212,7 +229,6 @@
 -(void)showHelpOverlay
 {
     if(![myScrollView.subviews containsObject: coachMarkImageView]){
-        NSLog(@"CoachMarks does not exist...drawing!");
         startingX = previousPage * self.view.frame.size.width;
         coachMarkImageView = [[UIImageView alloc] initWithFrame: CGRectMake(startingX, 0, self.view.frame.size.width, self.view.frame.size.height)];
         coachMarkImageView.image = [UIImage imageNamed: @"CoachMarksWBackground2.png"];
@@ -413,8 +429,8 @@
     myImageView.frame = CGRectMake((self.view.frame.size.width * sub), 0, self.view.frame.size.width, myScrollView.frame.size.height);
     myImageView.tag = sub + 1;
     
-    UIView* detailOverlay;
-    detailOverlay = [[UIView alloc]initWithFrame:CGRectMake((self.view.frame.size.width * sub), 0, self.view.frame.size.width, self.view.frame.size.height)];
+    CSAnimationView* detailOverlay;
+    detailOverlay = [[CSAnimationView alloc]initWithFrame:CGRectMake((self.view.frame.size.width * sub), 0, self.view.frame.size.width, self.view.frame.size.height)];
     [detailOverlay setBackgroundColor:[UIColor colorWithRed:0 green:0 blue:0 alpha:.1]];
     detailOverlay.tag = sub + 1000;
     detailOverlay.hidden = !isOverlayOn;
@@ -497,16 +513,23 @@
     }else{
     isOverlayOn = !(isOverlayOn);
     if (isOverlayOn) {
-        for (UIView *myDetailOverlay in myScrollView.subviews) {
+        for (CSAnimationView *myDetailOverlay in myScrollView.subviews) {
             if (myDetailOverlay.tag >= 1000) {
                 myDetailOverlay.hidden = NO;
-                
+                myDetailOverlay.type = CSAnimationTypeFadeIn;
+                myDetailOverlay.duration = 0.6;
+                myDetailOverlay.delay = 0;
+                [myDetailOverlay startCanvasAnimation];
             }
         }
     } else {
-        for (UIView *myDetailOverlay in myScrollView.subviews) {
+        for (CSAnimationView *myDetailOverlay in myScrollView.subviews) {
             if (myDetailOverlay.tag >= 1000) {
-                myDetailOverlay.hidden = YES;
+                //myDetailOverlay.hidden = YES;
+                myDetailOverlay.type = CSAnimationTypeFadeOut;
+                myDetailOverlay.duration = 0.6;
+                myDetailOverlay.delay = 0;
+                [myDetailOverlay startCanvasAnimation];
             }
         }
     }

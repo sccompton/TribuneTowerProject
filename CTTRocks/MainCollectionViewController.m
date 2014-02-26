@@ -41,10 +41,9 @@
 {
     [super viewDidLoad];
     
-   
-    
+
     fontForTitle = [UIFont fontWithName:@"HelveticaNeue-Bold" size:17];
-    fontForLocation = [UIFont fontWithName:@"HelveticaNeue" size:17];
+    fontForLocation = [UIFont fontWithName:@"HelveticaNeue" size:15];
     fontForNumber = [UIFont fontWithName:@"HelveticaNeue" size:12];
     
     [myCollectionView setContentInset:UIEdgeInsetsMake(44, 0, 0, 0)];
@@ -61,8 +60,18 @@
     self.navigationController.navigationBar.tag = 1;
     
     collectionViewFlowLayout.scrollDirection = UICollectionViewScrollDirectionVertical;
-    myCollectionView.backgroundColor = [UIColor whiteColor];
+
+//    UIImageView* bgView = [[UIImageView alloc] initWithImage:
+//                            [UIImage imageNamed:@"TribuneByDay5.jpeg"]];
+//    [myCollectionView.backgroundView addSubview:bgView];
+
     
+    myCollectionView.backgroundColor = [UIColor clearColor];
+    myCollectionView.backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"TribuneByDay11.jpeg"]];
+    
+    
+    
+//    myCollectionView.backgroundColor = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"TribuneByDay3.jpeg"]];
     myCollectionView.delegate = self;
     myCollectionView.dataSource = self;
     
@@ -128,9 +137,9 @@
     [cell.labelTitle setFont:fontForTitle];
     
     if (indexPath.row % 2) {
-        cell.contentView.backgroundColor = [UIColor colorWithRed:0.671 green:0.741 blue:0.761 alpha:1];
+        cell.contentView.backgroundColor = [UIColor colorWithRed:0.671 green:0.741 blue:0.761 alpha:.97];
     } else {
-        cell.contentView.backgroundColor = [UIColor colorWithRed:0.478 green:0.663 blue:0.78 alpha:1];
+        cell.contentView.backgroundColor = [UIColor colorWithRed:0.816 green:0.878 blue:0.898 alpha:.8];
     }
 
     if ([rock.country isEqualToString:@"USA"]) {
@@ -156,7 +165,6 @@
 
 - (void)collectionView:(UICollectionView *)cv didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSLog(@"did select %li", (long)indexPath.row);
     CTTCollectionViewCell *cell = ((CTTCollectionViewCell*)[myCollectionView cellForItemAtIndexPath:indexPath]);
     cell.imageView.alpha = 1.0;
     selectedIP = indexPath;
@@ -165,7 +173,6 @@
 }
 
 - (void)collectionView:(UICollectionView *)cv didDeselectItemAtIndexPath:(NSIndexPath *)indexPath {
-    NSLog(@"did deselect");
     CTTCollectionViewCell *cell = ((CTTCollectionViewCell*)[myCollectionView cellForItemAtIndexPath:indexPath]);
     cell.imageView.alpha = 1.0;
 }
@@ -212,14 +219,8 @@
             Rock *tempRock = vc.rockArray[n];
             if (rock.positionOnFacade == tempRock.positionOnFacade) {
                 vc.selectedRock = n;
-                NSLog(@"n = %i", n);
             }
         }
-//        
-//        
-//        vc.selectedRock = selectedIP.row;
-//        vc.rockArray = rocks;
-//        NSLog(@"segue to %li", (long)selectedIP.row);
     }
 }
 

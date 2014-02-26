@@ -23,6 +23,7 @@
 		1864399718B4277000EFFB9D /* CTTFrame_3px.png in Resources */ = {isa = PBXBuildFile; fileRef = 1864398918B4277000EFFB9D /* CTTFrame_3px.png */; };
 		18EF52B718BD373D0025127F /* Icon_!_44x_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EF52B518BD373D0025127F /* Icon_!_44x_white.png */; };
 		18EF52B818BD373D0025127F /* Icon_?_44x_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EF52B618BD373D0025127F /* Icon_?_44x_white.png */; };
+		3D12D0FBE2604CB4A750902D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95B86899A64545109049303F /* libPods.a */; };
 		88EE98E818AA790E00351DD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88EE98E718AA790E00351DD2 /* Foundation.framework */; };
 		88EE98EA18AA790E00351DD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88EE98E918AA790E00351DD2 /* CoreGraphics.framework */; };
 		88EE98EC18AA790E00351DD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88EE98EB18AA790E00351DD2 /* UIKit.framework */; };
@@ -720,9 +721,6 @@
 		88F409A218BD5C1F005066B1 /* R150 Lunar_Ferroan_Anorthosite-568h@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F407E018BD5C1F005066B1 /* R150 Lunar_Ferroan_Anorthosite-568h@2x.jpg */; };
 		88F409A318BD5C1F005066B1 /* R150 Lunar_Ferroan_Anorthosite.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F407E118BD5C1F005066B1 /* R150 Lunar_Ferroan_Anorthosite.jpg */; };
 		88F409A418BD5C1F005066B1 /* R150 Lunar_Ferroan_Anorthosite@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F407E218BD5C1F005066B1 /* R150 Lunar_Ferroan_Anorthosite@2x.jpg */; };
-		88F4FF1E18BCF511005066B1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88F4FF1B18BCF511005066B1 /* Default-568h@2x.png */; };
-		88F4FF1F18BCF511005066B1 /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 88F4FF1C18BCF511005066B1 /* Default-Portrait.png */; };
-		88F4FF2018BCF511005066B1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88F4FF1D18BCF511005066B1 /* Default@2x.png */; };
 		88F4FFB818BD392A005066B1 /* B001 Revolutionary War Battlefield - Princeton, New Jersey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F4FF2118BD392A005066B1 /* B001 Revolutionary War Battlefield - Princeton, New Jersey.jpg */; };
 		88F4FFB918BD392A005066B1 /* B002 Washingtons Landing Place - Delaware River, New Jersey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F4FF2218BD392A005066B1 /* B002 Washingtons Landing Place - Delaware River, New Jersey.jpg */; };
 		88F4FFBA18BD392A005066B1 /* B003 Reims Cathedral.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F4FF2318BD392A005066B1 /* B003 Reims Cathedral.jpg */; };
@@ -949,8 +947,18 @@
 		88F6520218B25F9B009074BE /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F6520118B25F9B009074BE /* CHCSVParser.m */; };
 		9E7124C218BD52540084B475 /* TribNightView.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9E7124C118BD52540084B475 /* TribNightView.jpeg */; };
 		9E7F1AD318BD67510026C797 /* CoachMarksWBackground2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E7F1AD218BD67510026C797 /* CoachMarksWBackground2.png */; };
+		9EB4683118BE3A990086A913 /* Icon_Search_44x_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB4683018BE3A990086A913 /* Icon_Search_44x_white.png */; };
+		9EB4683318BE3AA20086A913 /* Icon_Share_44x_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB4683218BE3AA20086A913 /* Icon_Share_44x_white.png */; };
+		9EB4683518BE55A40086A913 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB4683418BE55A40086A913 /* Default-568h@2x.png */; };
+		9EB4683718BE56F60086A913 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB4683618BE56F60086A913 /* Default.png */; };
+		9EB4683918BE57000086A913 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB4683818BE57000086A913 /* Default@2x.png */; };
+		9EB4683B18BE5BA60086A913 /* TribuneByDay3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9EB4683A18BE5BA60086A913 /* TribuneByDay3.jpeg */; };
+		9EB4683D18BE5F6F0086A913 /* TribuneByDayShort.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9EB4683C18BE5F6F0086A913 /* TribuneByDayShort.jpeg */; };
+		9EB4683F18BE631E0086A913 /* TribuneByDay4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9EB4683E18BE631E0086A913 /* TribuneByDay4.jpeg */; };
+		9EB4684118BE64550086A913 /* TribuneByDay5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9EB4684018BE64550086A913 /* TribuneByDay5.jpeg */; };
+		9EB4684318BE6B710086A913 /* TribuneByDay8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9EB4684218BE6B710086A913 /* TribuneByDay8.jpeg */; };
+		9EB4684518BE70B40086A913 /* TribuneByDay11.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9EB4684418BE70B40086A913 /* TribuneByDay11.jpeg */; };
 		9EC4718F18B512D50032EEFE /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC4718E18B512D50032EEFE /* WelcomeViewController.m */; };
-		9EC471DD18B9C9EE0032EEFE /* CoachMarks5.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EC471DC18B9C9EE0032EEFE /* CoachMarks5.png */; };
 		9EC471E018BA15A70032EEFE /* AcknowledgementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC471DF18BA15A70032EEFE /* AcknowledgementsViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -1607,9 +1615,6 @@
 		88F407E018BD5C1F005066B1 /* R150 Lunar_Ferroan_Anorthosite-568h@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "R150 Lunar_Ferroan_Anorthosite-568h@2x.jpg"; sourceTree = "<group>"; };
 		88F407E118BD5C1F005066B1 /* R150 Lunar_Ferroan_Anorthosite.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "R150 Lunar_Ferroan_Anorthosite.jpg"; sourceTree = "<group>"; };
 		88F407E218BD5C1F005066B1 /* R150 Lunar_Ferroan_Anorthosite@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "R150 Lunar_Ferroan_Anorthosite@2x.jpg"; sourceTree = "<group>"; };
-		88F4FF1B18BCF511005066B1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		88F4FF1C18BCF511005066B1 /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
-		88F4FF1D18BCF511005066B1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		88F4FF2118BD392A005066B1 /* B001 Revolutionary War Battlefield - Princeton, New Jersey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "B001 Revolutionary War Battlefield - Princeton, New Jersey.jpg"; sourceTree = "<group>"; };
 		88F4FF2218BD392A005066B1 /* B002 Washingtons Landing Place - Delaware River, New Jersey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "B002 Washingtons Landing Place - Delaware River, New Jersey.jpg"; sourceTree = "<group>"; };
 		88F4FF2318BD392A005066B1 /* B003 Reims Cathedral.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "B003 Reims Cathedral.jpg"; sourceTree = "<group>"; };
@@ -1914,11 +1919,24 @@
 		88F651FD18B25F1F009074BE /* CTT New Inventory.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "CTT New Inventory.csv"; sourceTree = "<group>"; };
 		88F6520018B25F9B009074BE /* CHCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCSVParser.h; sourceTree = "<group>"; };
 		88F6520118B25F9B009074BE /* CHCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCSVParser.m; sourceTree = "<group>"; };
+		8FD7362FFD4E4E06A0B32E5E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		95B86899A64545109049303F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E7124C118BD52540084B475 /* TribNightView.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TribNightView.jpeg; sourceTree = "<group>"; };
 		9E7F1AD218BD67510026C797 /* CoachMarksWBackground2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CoachMarksWBackground2.png; sourceTree = "<group>"; };
+		9EB4683018BE3A990086A913 /* Icon_Search_44x_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_Search_44x_white.png; sourceTree = "<group>"; };
+		9EB4683218BE3AA20086A913 /* Icon_Share_44x_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_Share_44x_white.png; sourceTree = "<group>"; };
+		9EB4683418BE55A40086A913 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9EB4683618BE56F60086A913 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9EB4683818BE57000086A913 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9EB4683A18BE5BA60086A913 /* TribuneByDay3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TribuneByDay3.jpeg; sourceTree = "<group>"; };
+		9EB4683C18BE5F6F0086A913 /* TribuneByDayShort.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TribuneByDayShort.jpeg; sourceTree = "<group>"; };
+		9EB4683E18BE631E0086A913 /* TribuneByDay4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TribuneByDay4.jpeg; sourceTree = "<group>"; };
+		9EB4684018BE64550086A913 /* TribuneByDay5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TribuneByDay5.jpeg; sourceTree = "<group>"; };
+		9EB4684218BE6B710086A913 /* TribuneByDay8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TribuneByDay8.jpeg; sourceTree = "<group>"; };
+		9EB4684418BE70B40086A913 /* TribuneByDay11.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TribuneByDay11.jpeg; sourceTree = "<group>"; };
 		9EC4718D18B512D50032EEFE /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
 		9EC4718E18B512D50032EEFE /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
-		9EC471DC18B9C9EE0032EEFE /* CoachMarks5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CoachMarks5.png; sourceTree = "<group>"; };
+		9EC471DC18B9C9EE0032EEFE /* CoachMarks5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CoachMarks5.png; path = /Users/sajscompton/Documents/TribuneTowerProject/CTTRocks/CoachMarks5.png; sourceTree = "<absolute>"; };
 		9EC471DE18BA15A70032EEFE /* AcknowledgementsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcknowledgementsViewController.h; sourceTree = "<group>"; };
 		9EC471DF18BA15A70032EEFE /* AcknowledgementsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcknowledgementsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1931,6 +1949,7 @@
 				88EE98EA18AA790E00351DD2 /* CoreGraphics.framework in Frameworks */,
 				88EE98EC18AA790E00351DD2 /* UIKit.framework in Frameworks */,
 				88EE98E818AA790E00351DD2 /* Foundation.framework in Frameworks */,
+				3D12D0FBE2604CB4A750902D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2132,6 +2151,7 @@
 				88EE990C18AA790E00351DD2 /* CTTRocksTests */,
 				88EE98E618AA790E00351DD2 /* Frameworks */,
 				88EE98E518AA790E00351DD2 /* Products */,
+				8FD7362FFD4E4E06A0B32E5E /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -2151,6 +2171,7 @@
 				88EE98E918AA790E00351DD2 /* CoreGraphics.framework */,
 				88EE98EB18AA790E00351DD2 /* UIKit.framework */,
 				88EE990618AA790E00351DD2 /* XCTest.framework */,
+				95B86899A64545109049303F /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -2179,7 +2200,6 @@
 				88F6520018B25F9B009074BE /* CHCSVParser.h */,
 				88F6520118B25F9B009074BE /* CHCSVParser.m */,
 				88EE98FF18AA790E00351DD2 /* Images.xcassets */,
-				9EC471DC18B9C9EE0032EEFE /* CoachMarks5.png */,
 				88EE98EE18AA790E00351DD2 /* Supporting Files */,
 			);
 			path = CTTRocks;
@@ -2217,9 +2237,13 @@
 		88EE991F18AA85BD00351DD2 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				88F4FF1B18BCF511005066B1 /* Default-568h@2x.png */,
-				88F4FF1C18BCF511005066B1 /* Default-Portrait.png */,
-				88F4FF1D18BCF511005066B1 /* Default@2x.png */,
+				9EB4683418BE55A40086A913 /* Default-568h@2x.png */,
+				9EB4683818BE57000086A913 /* Default@2x.png */,
+				9EB4683E18BE631E0086A913 /* TribuneByDay4.jpeg */,
+				9EB4683A18BE5BA60086A913 /* TribuneByDay3.jpeg */,
+				9EB4684018BE64550086A913 /* TribuneByDay5.jpeg */,
+				9EB4683C18BE5F6F0086A913 /* TribuneByDayShort.jpeg */,
+				9EB4683618BE56F60086A913 /* Default.png */,
 				1864397B18B4277000EFFB9D /* topDown Images */,
 				88EE9AC718ABF48B00351DD2 /* Buildings */,
 				88B9B48418B81703004F36D8 /* Rocks_thumbnails */,
@@ -2847,6 +2871,10 @@
 		88EE9ADA18AC5EDB00351DD2 /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				9EB4683218BE3AA20086A913 /* Icon_Share_44x_white.png */,
+				9EB4683018BE3A990086A913 /* Icon_Search_44x_white.png */,
+				9EB4684418BE70B40086A913 /* TribuneByDay11.jpeg */,
+				9EB4684218BE6B710086A913 /* TribuneByDay8.jpeg */,
 				9E7124C118BD52540084B475 /* TribNightView.jpeg */,
 				88F4061F18BD5110005066B1 /* CTTPanoramaV2.jpg */,
 				18EF52B518BD373D0025127F /* Icon_!_44x_white.png */,
@@ -3021,9 +3049,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88EE991618AA790E00351DD2 /* Build configuration list for PBXNativeTarget "TribuneTowerProject" */;
 			buildPhases = (
+				B0087B7DEEE645D3A83E1169 /* Check Pods Manifest.lock */,
 				88EE98E018AA790E00351DD2 /* Sources */,
 				88EE98E118AA790E00351DD2 /* Frameworks */,
 				88EE98E218AA790E00351DD2 /* Resources */,
+				1439E27B8ED24C1F90981BEA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -3132,6 +3162,7 @@
 				88F4085A18BD5C1F005066B1 /* R040 Notre Dame@2x.jpg in Resources */,
 				88F4003418BD392A005066B1 /* B124 Bloody Nose Ridge - Peleliu, Palau, Western Pacific.jpg in Resources */,
 				88F408C918BD5C1F005066B1 /* R077 Ta Prohm Temple@2x.jpg in Resources */,
+				9EB4683718BE56F60086A913 /* Default.png in Resources */,
 				88F405B018BD3A36005066B1 /* S042 Old General Post Office.jpg in Resources */,
 				88F4089118BD5C1F005066B1 /* R059 Fort Sumter-568h@2x.jpg in Resources */,
 				1864399118B4277000EFFB9D /* #4blue.png in Resources */,
@@ -3157,6 +3188,7 @@
 				88F651B818B25EF6009074BE /* Text082_William Henry Harrison Home.rtf in Resources */,
 				88F408E018BD5C1F005066B1 /* R085 Independence Hall.jpg in Resources */,
 				88F407FE18BD5C1F005066B1 /* R010 WTC-568h@2x.jpg in Resources */,
+				9EB4683B18BE5BA60086A913 /* TribuneByDay3.jpeg in Resources */,
 				88F4084518BD5C1F005066B1 /* R033 Cologne Cathedral@2x.jpg in Resources */,
 				88F4096918BD5C1F005066B1 /* R131 Petrified Forest-568h@2x.jpg in Resources */,
 				88F405D618BD3A36005066B1 /* S080 Dome of St. Peters Basilica.jpg in Resources */,
@@ -3170,6 +3202,7 @@
 				88F4FFCB18BD392A005066B1 /* B020 Trondheim Cathedral.jpg in Resources */,
 				88F4086A18BD5C1F005066B1 /* R046 Forbidden City-568h@2x.jpg in Resources */,
 				88F408E218BD5C1F005066B1 /* R086 Walls of Derry-568h@2x.jpg in Resources */,
+				9EB4683D18BE5F6F0086A913 /* TribuneByDayShort.jpeg in Resources */,
 				88F4098F18BD5C1F005066B1 /* R143 Yellowstone National Park@2x.jpg in Resources */,
 				88F405EF18BD3A36005066B1 /* S105 Custer Battlefield.jpg in Resources */,
 				88F405C218BD3A36005066B1 /* S060 Tainitzkaya Tower.jpg in Resources */,
@@ -3242,6 +3275,7 @@
 				88F408FC18BD5C1F005066B1 /* R094 Old Swedes Church@2x.jpg in Resources */,
 				88F4FFEA18BD392A005066B1 /* B050 Willem_Koekkoek_Schreierstoren.jpg in Resources */,
 				88F407E618BD5C1F005066B1 /* R002 Washingtons Landing Place-568h@2x.jpg in Resources */,
+				9EB4684318BE6B710086A913 /* TribuneByDay8.jpeg in Resources */,
 				88F4080418BD5C1F005066B1 /* R012 Ehrenbreitstein-568h@2x.jpg in Resources */,
 				88F407EC18BD5C1F005066B1 /* R004 Trenton-568h@2x.jpg in Resources */,
 				88F4088618BD5C1F005066B1 /* R055 Riga.jpg in Resources */,
@@ -3413,7 +3447,6 @@
 				88F4061918BD3A36005066B1 /* S147 Boston Avenue Church.jpg in Resources */,
 				88F4098218BD5C1F005066B1 /* R139 Old Washoe County Courthouse.jpg in Resources */,
 				88F4059318BD3A36005066B1 /* S013 Panama.jpg in Resources */,
-				9EC471DD18B9C9EE0032EEFE /* CoachMarks5.png in Resources */,
 				88F405BD18BD3A36005066B1 /* S055 Riga.jpg in Resources */,
 				88F4097F18BD5C1F005066B1 /* R138 Corregidor.jpg in Resources */,
 				88F408CA18BD5C1F005066B1 /* R078 The Great Pyramid-568h@2x.jpg in Resources */,
@@ -3532,7 +3565,6 @@
 				88F6519818B25EF6009074BE /* Text050_Tower of Tears.rtf in Resources */,
 				88F4092618BD5C1F005066B1 /* R108 Cumberland Gap@2x.jpg in Resources */,
 				88F405CC18BD3A36005066B1 /* S070 Colloseum.jpg in Resources */,
-				88F4FF1E18BCF511005066B1 /* Default-568h@2x.png in Resources */,
 				88F4089518BD5C1F005066B1 /* R060 Tainitzkaya Tower.jpg in Resources */,
 				88F4087D18BD5C1F005066B1 /* R052 Viking Stone.jpg in Resources */,
 				88F6519D18B25EF6009074BE /* Text055_The Powder Tower.rtf in Resources */,
@@ -3558,8 +3590,10 @@
 				88F408AA18BD5C1F005066B1 /* R067 St. Johns Episcopal Church.jpg in Resources */,
 				88F4095518BD5C1F005066B1 /* R124 Bloody Nose.jpg in Resources */,
 				88F4094A18BD5C1F005066B1 /* R120 City Hall@2x.jpg in Resources */,
+				9EB4684118BE64550086A913 /* TribuneByDay5.jpeg in Resources */,
 				88F405D718BD3A36005066B1 /* S081 Fort Ticonderoga.jpg in Resources */,
 				88F651B118B25EF6009074BE /* Text075_The Great Wall of China.rtf in Resources */,
+				9EB4683F18BE631E0086A913 /* TribuneByDay4.jpeg in Resources */,
 				88F4058B18BD3A36005066B1 /* S005 Leiden.jpg in Resources */,
 				88F4090F18BD5C1F005066B1 /* R101 Sibyl’s Cave-568h@2x.jpg in Resources */,
 				88F407F818BD5C1F005066B1 /* R008 Butter Tower-568h@2x.jpg in Resources */,
@@ -3632,6 +3666,7 @@
 				88F6516718B25EF6009074BE /* Text001_Battlefield of Princeton.rtf in Resources */,
 				88F4099418BD5C1F005066B1 /* R145 Aztec Ruins.jpg in Resources */,
 				88F4002E18BD392A005066B1 /* B118 Kirche-St-Lo-2011_0201.jpg in Resources */,
+				9EB4683318BE3AA20086A913 /* Icon_Share_44x_white.png in Resources */,
 				88F4000218BD392A005066B1 /* B074 St._Michaels_Golden-Domed_Monastery.jpg in Resources */,
 				88F4091718BD5C1F005066B1 /* R103 Chimney Point@2x.jpg in Resources */,
 				88F4085D18BD5C1F005066B1 /* R041 Ancient Temple@2x.jpg in Resources */,
@@ -3650,6 +3685,7 @@
 				88F4002918BD392A005066B1 /* B113 Lovejoyat1837AltonIllinoisRiot.jpg in Resources */,
 				88F405DC18BD3A36005066B1 /* S086 Walls of Derry.jpg in Resources */,
 				88F6518618B25EF6009074BE /* Text032_Royal Castle Stockholm.rtf in Resources */,
+				9EB4683518BE55A40086A913 /* Default-568h@2x.png in Resources */,
 				88F4058E18BD3A36005066B1 /* S008 Butter Tower.jpg in Resources */,
 				88F405FA18BD3A36005066B1 /* S116 Site of De Soto’s Landing.jpg in Resources */,
 				88F4058D18BD3A36005066B1 /* S007 Fortress.jpg in Resources */,
@@ -3660,6 +3696,7 @@
 				88F651F718B25EF6009074BE /* Text145_Aztec Ruins National Monument.rtf in Resources */,
 				88F4000E18BD392A005066B1 /* B086 Cannon_on_Derry_City_Walls_SMC_2007.jpg in Resources */,
 				88F4000118BD392A005066B1 /* B073 Rome_basilica_st_peter_004.jpg in Resources */,
+				9EB4683118BE3A990086A913 /* Icon_Search_44x_white.png in Resources */,
 				88F4095918BD5C1F005066B1 /* R125 Semenaire de Quebec@2x.jpg in Resources */,
 				88F651B218B25EF6009074BE /* Text076_Banteay Srei Hindu Temple.rtf in Resources */,
 				88F651BA18B25EF6009074BE /* Text084_Mammoth Cave.rtf in Resources */,
@@ -3727,6 +3764,7 @@
 				88F405FC18BD3A36005066B1 /* S118 Town Hall.jpg in Resources */,
 				88F408FA18BD5C1F005066B1 /* R094 Old Swedes Church-568h@2x.jpg in Resources */,
 				88F4092018BD5C1F005066B1 /* R106 Fort McHenry@2x.jpg in Resources */,
+				9EB4684518BE70B40086A913 /* TribuneByDay11.jpeg in Resources */,
 				88F4003018BD392A005066B1 /* B120 City Hall - Aachen, Germany.jpg in Resources */,
 				88F405F318BD3A36005066B1 /* S109 Petra.jpg in Resources */,
 				88F405F118BD3A36005066B1 /* S107 Battlefield.jpg in Resources */,
@@ -3876,7 +3914,6 @@
 				88F4095318BD5C1F005066B1 /* R123 Mt. Tapochau@2x.jpg in Resources */,
 				88F408EF18BD5C1F005066B1 /* R090 International Peace Garden.jpg in Resources */,
 				88F408E518BD5C1F005066B1 /* R087 Nassau Hall-568h@2x.jpg in Resources */,
-				88F4FF2018BCF511005066B1 /* Default@2x.png in Resources */,
 				1864398C18B4277000EFFB9D /* #2.png in Resources */,
 				88F4080118BD5C1F005066B1 /* R011 ForbiddenCity-568h@2x.jpg in Resources */,
 				88F4097518BD5C1F005066B1 /* R135 Toyotomi Castle-568h@2x.jpg in Resources */,
@@ -3924,7 +3961,6 @@
 				88F4000B18BD392A005066B1 /* B083 Tom_Sawyer_1876_frontispiece.jpg in Resources */,
 				88F4FFF718BD392A005066B1 /* B063 Fort_Marion.jpg in Resources */,
 				88F6518818B25EF6009074BE /* Text034_Fort San Antonio Abad.rtf in Resources */,
-				88F4FF1F18BCF511005066B1 /* Default-Portrait.png in Resources */,
 				88F4000A18BD392A005066B1 /* B082 Henry Harrison House.jpg in Resources */,
 				88F4084E18BD5C1F005066B1 /* R036 Cologne Cathedral@2x.jpg in Resources */,
 				88F4FFE518BD392A005066B1 /* B045 Hagia_Sophia.jpg in Resources */,
@@ -4004,6 +4040,7 @@
 				18EF52B718BD373D0025127F /* Icon_!_44x_white.png in Resources */,
 				1864399618B4277000EFFB9D /* CTTFrame_2px.png in Resources */,
 				88F405E618BD3A36005066B1 /* S096 Nelson House.jpg in Resources */,
+				9EB4683918BE57000086A913 /* Default@2x.png in Resources */,
 				88F4002318BD392A005066B1 /* B107 Battlefield - New Orleans, Louisiana.jpg in Resources */,
 				88F4FFB918BD392A005066B1 /* B002 Washingtons Landing Place - Delaware River, New Jersey.jpg in Resources */,
 				88F4001F18BD392A005066B1 /* B103 Lake_Champlain.jpg in Resources */,
@@ -4033,6 +4070,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1439E27B8ED24C1F90981BEA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0087B7DEEE645D3A83E1169 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		88EE98E018AA790E00351DD2 /* Sources */ = {
@@ -4171,6 +4241,7 @@
 		};
 		88EE991718AA790E00351DD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FD7362FFD4E4E06A0B32E5E /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -4187,6 +4258,7 @@
 		};
 		88EE991818AA790E00351DD2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FD7362FFD4E4E06A0B32E5E /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

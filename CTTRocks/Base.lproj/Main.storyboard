@@ -11,8 +11,7 @@
                     <collectionView key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" indicatorStyle="white" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" id="gff-r1-vIa">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="4" minimumInteritemSpacing="6" id="xBP-Ac-NqI">
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="8" minimumInteritemSpacing="8" id="xBP-Ac-NqI">
                             <size key="itemSize" width="50" height="50"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -47,7 +46,6 @@
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <size key="customSize" width="320" height="65"/>
                                 <connections>
                                     <outlet property="imageViewRockThumbnail" destination="3R4-n4-Wje" id="CSO-TH-TCp"/>
@@ -395,8 +393,7 @@ IAo
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content"> license. The original image and additional information may be found at: 
-http://en.wikipedia.org/wiki/File:Cartagena_-_Fortaleza_San_Felipe_de_Barajas_-_20050430bis.jpg
+                                        <string key="content"> license. The original image and additional information may be found at: http://en.wikipedia.org/wiki/File:Cartagena_-_Fortaleza_San_Felipe_de_Barajas_-_20050430bis.jpg
 
 “Butter Tower, Cathedral of Notre Dame, Rouen, France” is by ByB (</string>
                                         <attributes>
@@ -455,9 +452,7 @@ http://en.wikipedia.org/wiki/File:Cartagena_-_Fortaleza_San_Felipe_de_Barajas_-_
                                             <color key="NSStrokeColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment>
-                                        <string key="content"> license. The original image and additional information may be found at: 
-</string>
+                                    <fragment content=" license. The original image and additional information may be found at: ">
                                         <attributes>
                                             <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <font key="NSFont" size="12" name="Helvetica"/>
@@ -556,8 +551,7 @@ http://en.wikipedia.org/wiki/File:Cartagena_-_Fortaleza_San_Felipe_de_Barajas_-_
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content"> license. The original image and additional information may be found at: 
-http://en.wikipedia.org/wiki/File:S%C3%BCleymaniye_Mosque_exterior_view.JPG
+                                        <string key="content"> license. The original image and additional information may be found at: http://en.wikipedia.org/wiki/File:S%C3%BCleymaniye_Mosque_exterior_view.JPG
 
 “Santo Domingo Monastery Church, Panama City, Panama” is by </string>
                                         <attributes>
@@ -617,8 +611,7 @@ http://en.wikipedia.org/wiki/File:S%C3%BCleymaniye_Mosque_exterior_view.JPG
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content"> license. The original image and additional information may be found at: 
-http://commons.wikimedia.org/wiki/File:Arco_Chato_Panam%C3%A1.JPG
+                                        <string key="content"> license. The original image and additional information may be found at: http://commons.wikimedia.org/wiki/File:Arco_Chato_Panam%C3%A1.JPG
 
 “Sydney Opera House, Sydney, Australia</string>
                                         <attributes>
@@ -677,9 +670,7 @@ http://commons.wikimedia.org/wiki/File:Arco_Chato_Panam%C3%A1.JPG
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">).
-The original image and additional information may be found at: 
-http://www.flickr.com/photos/bdearth/4028846906/
+                                        <string key="content">).The original image and additional information may be found at: http://www.flickr.com/photos/bdearth/4028846906/
 
 </string>
                                         <attributes>
@@ -729,7 +720,7 @@ http://www.flickr.com/photos/bdearth/4028846906/
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">)
+                                        <string key="content">). The original image and additional information may be found at: http://www.flickr.com/photos/trondheim_byarkiv/4811678082/
 </string>
                                         <attributes>
                                             <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -740,9 +731,7 @@ http://www.flickr.com/photos/bdearth/4028846906/
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">The original image and additional information may be found at: 
-http://www.flickr.com/photos/trondheim_byarkiv/4811678082/
-
+                                        <string key="content">
 “Luther’s Wartburg, near Eisenach, Germany” is by Robert Scarth. It is licensed under Creative Commons Attribution 2.0 Generic (CC BY 2.0) (</string>
                                         <attributes>
                                             <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -762,9 +751,7 @@ http://www.flickr.com/photos/trondheim_byarkiv/4811678082/
                                             <color key="NSStrokeColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment>
-                                        <string key="content">)
-</string>
+                                    <fragment content="). ">
                                         <attributes>
                                             <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <font key="NSFont" size="12" name="Helvetica"/>
@@ -863,8 +850,7 @@ http://www.flickr.com/photos/trondheim_byarkiv/4811678082/
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). The original image and additional information may be found at: 
-http://commons.wikimedia.org/wiki/File:The_Great_Wall_of_China_at_Jinshanling.jpg
+                                        <string key="content">). The original image and additional information may be found at: http://commons.wikimedia.org/wiki/File:The_Great_Wall_of_China_at_Jinshanling.jpg
 
 “The Berlin Wall” is by </string>
                                         <attributes>
@@ -943,8 +929,7 @@ http://commons.wikimedia.org/wiki/File:The_Great_Wall_of_China_at_Jinshanling.jp
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). The original image and additional information may be found at: 
-http://commons.wikimedia.org/wiki/File:Berlin_Wall_-_Niederkirchner_Strasse.JPG
+                                        <string key="content">). The original image and additional information may be found at: http://commons.wikimedia.org/wiki/File:Berlin_Wall_-_Niederkirchner_Strasse.JPG
 
 “Chillon Castle, Switzerland” is by </string>
                                         <attributes>
@@ -1023,8 +1008,7 @@ http://commons.wikimedia.org/wiki/File:Berlin_Wall_-_Niederkirchner_Strasse.JPG
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). The original image and information can be found at: 
-http://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Chillon_-_Montreux_.jpg
+                                        <string key="content">). The original image and information can be found at: http://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Chillon_-_Montreux_.jpg
 
 “Massachusetts Hall, Harvard” is by Daderot and is licensed under the </string>
                                         <attributes>
@@ -1084,8 +1068,7 @@ http://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Chillon_-_Montreux_.jpg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). The original image and information can be found at: 
-http://commons.wikimedia.org/wiki/File:Massachusetts_Hall,_Harvard_University.JPG
+                                        <string key="content">). The original image and information can be found at: http://commons.wikimedia.org/wiki/File:Massachusetts_Hall,_Harvard_University.JPG
 
 “Pevensey Castle” is by Stephen Groves (</string>
                                         <attributes>
@@ -1126,9 +1109,7 @@ http://commons.wikimedia.org/wiki/File:Massachusetts_Hall,_Harvard_University.JP
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">)
-The original image and additional information may be found at: 
-http://www.flickr.com/photos/steveg00000/188344182/
+                                        <string key="content">). The original image and additional information may be found at: http://www.flickr.com/photos/steveg00000/188344182/
 
 “Wawel Castle” is by FotoCavallo and is licensed under the </string>
                                         <attributes>
@@ -1188,8 +1169,7 @@ http://www.flickr.com/photos/steveg00000/188344182/
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). The original image and additional information may be found at: 
-http://commons.wikimedia.org/wiki/File:Wawel_castle.jpg
+                                        <string key="content">). The original image and additional information may be found at: http://commons.wikimedia.org/wiki/File:Wawel_castle.jpg
 
 “Stockholm Royal Castle” is by </string>
                                         <attributes>
@@ -1268,8 +1248,7 @@ http://commons.wikimedia.org/wiki/File:Wawel_castle.jpg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). The original image and additional information may be found at: 
-http://commons.wikimedia.org/wiki/File:Kunliga_slottet_2_copy1.jpg
+                                        <string key="content">). The original image and additional information may be found at: http://commons.wikimedia.org/wiki/File:Kunliga_slottet_2_copy1.jpg
 
 “Cologne Cathedral” is by </string>
                                         <attributes>
@@ -1347,9 +1326,7 @@ http://commons.wikimedia.org/wiki/File:Kunliga_slottet_2_copy1.jpg
                                             <color key="NSStrokeColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment>
-                                        <string key="content">). The original image and additional information may be found at:
-</string>
+                                    <fragment content="). The original image and additional information may be found at: ">
                                         <attributes>
                                             <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <font key="NSFont" size="12" name="Helvetica"/>
@@ -1369,8 +1346,6 @@ http://commons.wikimedia.org/wiki/File:Kunliga_slottet_2_copy1.jpg
                                             </url>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36"/>
                                             <color key="NSStrokeColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            <integer key="NSUnderline" value="1"/>
-                                            <color key="NSUnderlineColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
@@ -1472,9 +1447,7 @@ http://commons.wikimedia.org/wiki/File:Kunliga_slottet_2_copy1.jpg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">).
-The original image and additional information may be found at: 
-http://commons.wikimedia.org/wiki/File:Tower_of_david_jerusalem.jpg
+                                        <string key="content">). The original image and additional information may be found at: http://commons.wikimedia.org/wiki/File:Tower_of_david_jerusalem.jpg
 
 “Notre Dame, Paris” is by </string>
                                         <attributes>
@@ -1534,30 +1507,8 @@ http://commons.wikimedia.org/wiki/File:Tower_of_david_jerusalem.jpg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). The original image and additional information may be found at: 
-</string>
-                                        <attributes>
-                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            <font key="NSFont" size="12" name="Helvetica"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36"/>
-                                            <color key="NSStrokeColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">http://commons.wikimedia.org/wiki/File:Notre_Dame_de_Paris_by_night_time.jpg
-</string>
-                                        <attributes>
-                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            <font key="NSFont" size="12" name="Helvetica"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="6.4000000000000004" defaultTabInterval="36"/>
-                                            <color key="NSStrokeColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content" base64-UTF8="YES">
-Cg
+                                        <string key="content">). The original image and additional information may be found at: http://commons.wikimedia.org/wiki/File:Notre_Dame_de_Paris_by_night_time.jpg
+
 </string>
                                         <attributes>
                                             <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1625,7 +1576,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). The original image and additional information may be found at: 
+                                        <string key="content">). The original image and additional information may be found at: http://commons.wikimedia.org/wiki/File:Temple_roofline.jpg
 </string>
                                         <attributes>
                                             <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1636,8 +1587,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">http://commons.wikimedia.org/wiki/File:Temple_roofline.jpg
- 
+                                        <string key="content"> 
 “The Old Post Office, Dublin, Ireland” is by </string>
                                         <attributes>
                                             <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1715,8 +1665,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). The original image and information can be found at: 
-http://commons.wikimedia.org/wiki/File:Old_Post_Office_building,_Blackrock,_Dublin.JPG
+                                        <string key="content">). The original image and information can be found at: http://commons.wikimedia.org/wiki/File:Old_Post_Office_building,_Blackrock,_Dublin.JPG
 
 “Forbidden City, Temple” is by </string>
                                         <attributes>
@@ -1776,8 +1725,7 @@ http://commons.wikimedia.org/wiki/File:Old_Post_Office_building,_Blackrock,_Dubl
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content"> license. The original image and additional information may be found at: 
-http://commons.wikimedia.org/wiki/File:Beijing-forbidden4.jpg
+                                        <string key="content"> license. The original image and additional information may be found at: http://commons.wikimedia.org/wiki/File:Beijing-forbidden4.jpg
 
 “Hagia Sophia, Istanbul, Turkey” is by </string>
                                         <attributes>
@@ -1837,11 +1785,9 @@ http://commons.wikimedia.org/wiki/File:Beijing-forbidden4.jpg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content"> license (http://creativecommons.org/licenses/by-sa/2.0/deed.en). The original image and additional information may be found at: 
-http://www.flickr.com/photos/archer10/2216460729/
+                                        <string key="content"> license (http://creativecommons.org/licenses/by-sa/2.0/deed.en). The original image and additional information may be found at: http://www.flickr.com/photos/archer10/2216460729/
 
-“United States War Memorial, Mont Sec, France” is by Michiel1972 and is licensed under the Creative Commons Attribution-Share Alike 3.0 Unported license (http://creativecommons.org/licenses/by-sa/3.0/deed.en). The original image and additional information may be found at:
-</string>
+“United States War Memorial, Mont Sec, France” is by Michiel1972 and is licensed under the Creative Commons Attribution-Share Alike 3.0 Unported license (http://creativecommons.org/licenses/by-sa/3.0/deed.en). The original image and additional information may be found at: </string>
                                         <attributes>
                                             <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <font key="NSFont" size="12" name="Helvetica"/>
@@ -1856,23 +1802,13 @@ http://www.flickr.com/photos/archer10/2216460729/
                                             <font key="NSFont" size="12" name="Helvetica"/>
                                             <real key="NSKern" value="0.0"/>
                                             <url key="NSLink" string="http://commons.wikimedia.org/wiki/File:Butte_de_Montsec.jpg"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="5.2999999999999998" defaultTabInterval="36"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36"/>
                                             <color key="NSStrokeColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content" base64-UTF8="YES">
-Cg
-</string>
-                                        <attributes>
-                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            <font key="NSFont" size="12" name="Helvetica"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="5.2999999999999998" defaultTabInterval="36"/>
-                                            <color key="NSStrokeColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="“Flodden Field” is by Stephen McKay and is licensed for reuse under the ">
+                                        <string key="content">
+“Flodden Field” is by Stephen McKay and is licensed for reuse under the </string>
                                         <attributes>
                                             <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <font key="NSFont" size="12" name="Helvetica"/>
@@ -1892,8 +1828,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content"> Attribution-ShareAlike 2.0 license (http://creativecommons.org/licenses/by-sa/2.0/deed.en). The original image and additional information may be found at: 
-</string>
+                                        <string key="content"> Attribution-ShareAlike 2.0 license (http://creativecommons.org/licenses/by-sa/2.0/deed.en). The original image and additional information may be found at: </string>
                                         <attributes>
                                             <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <font key="NSFont" size="12" name="Helvetica"/>
@@ -1973,8 +1908,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). The original image and additional information may be found at: 
-http://commons.wikimedia.org/wiki/File:Christ_Church_Phila.JPG
+                                        <string key="content">). The original image and additional information may be found at: http://commons.wikimedia.org/wiki/File:Christ_Church_Phila.JPG
 
 “The Powder Tower, Riga, Latvia” is by Harald Hansen and was released into the public domain. The original image and information can be found at: http://en.wikipedia.org/wiki/File:Riga_War_Museum.jpg
 
@@ -2055,8 +1989,7 @@ http://commons.wikimedia.org/wiki/File:Christ_Church_Phila.JPG
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). The original image and information can be found at: 
-http://commons.wikimedia.org/wiki/File:Lincoln_home_springfield.jpg
+                                        <string key="content">). The original image and information can be found at: http://commons.wikimedia.org/wiki/File:Lincoln_home_springfield.jpg
 
 “Beaumaris Castle, Wales” is by Pam Brophy and is licensed for reuse under the </string>
                                         <attributes>
@@ -2078,8 +2011,7 @@ http://commons.wikimedia.org/wiki/File:Lincoln_home_springfield.jpg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content"> Attribution-ShareAlike 2.0 license (http://creativecommons.org/licenses/by-sa/2.0/). The original image and additional information may be found at: 
-http://www.geograph.org.uk/photo/28577
+                                        <string key="content"> Attribution-ShareAlike 2.0 license (http://creativecommons.org/licenses/by-sa/2.0/). The original image and additional information may be found at: http://www.geograph.org.uk/photo/28577
 
 “The Colosseum, Rome, Italy” is by David Iliff and is licensed under the Creative Commons Attribution-Share Alike 2.5 Generic license (</string>
                                         <attributes>
@@ -2200,8 +2132,7 @@ http://en.wikipedia.org/wiki/File:Colosseum_in_Rome,_Italy_-_April_2007.jpg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). The original image and information can be found at: 
-http://commons.wikimedia.org/wiki/File:Pompeji_Terme_Stabiane_Apodyterion.jpg
+                                        <string key="content">). The original image and information can be found at: http://commons.wikimedia.org/wiki/File:Pompeji_Terme_Stabiane_Apodyterion.jpg
 
 “Badlands, South Dakota” is by </string>
                                         <attributes>
@@ -2280,8 +2211,7 @@ http://commons.wikimedia.org/wiki/File:Pompeji_Terme_Stabiane_Apodyterion.jpg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). The original image and information can be found at: 
-http://commons.wikimedia.org/wiki/File:BadlandsView3.jpg
+                                        <string key="content">). The original image and information can be found at: http://commons.wikimedia.org/wiki/File:BadlandsView3.jpg
 
 “St Michael, Kiev, Ukraine” is by </string>
                                         <attributes>
@@ -2341,8 +2271,7 @@ http://commons.wikimedia.org/wiki/File:BadlandsView3.jpg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content"> license (http://creativecommons.org/licenses/by/2.0/deed.en). The original image and additional information may be found at: 
-http://commons.wikimedia.org/wiki/File:Detail_of_the_domes_-_St._Michaels_Golden-Domed_Monastery_(8600670465).jpg
+                                        <string key="content"> license (http://creativecommons.org/licenses/by/2.0/deed.en). The original image and additional information may be found at: http://commons.wikimedia.org/wiki/File:Detail_of_the_domes_-_St._Michaels_Golden-Domed_Monastery_(8600670465).jpg
 
 “Great Wall of China” (specifically the image overlaying the stone from the oldest portion of the wall) is by </string>
                                         <attributes>
@@ -2421,8 +2350,7 @@ http://commons.wikimedia.org/wiki/File:Detail_of_the_domes_-_St._Michaels_Golden
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). The original image and information can be found at: 
-http://commons.wikimedia.org/wiki/File:20090529_Great_Wall_8125.jpg
+                                        <string key="content">). The original image and information can be found at: http://commons.wikimedia.org/wiki/File:20090529_Great_Wall_8125.jpg
 
 “Banteay Srei Hindu Temple, Angkor, Cambodia” is by Paul Mannix (</string>
                                         <attributes>
@@ -2463,8 +2391,7 @@ http://commons.wikimedia.org/wiki/File:20090529_Great_Wall_8125.jpg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). The original image and information can be found at: 
-http://www.flickr.com/photos/paulmannix/3188722659/
+                                        <string key="content">). The original image and information can be found at: http://www.flickr.com/photos/paulmannix/3188722659/
 
 “Ta Phrom Temple, Angkor, Cambodia” is by </string>
                                         <attributes>
@@ -2543,8 +2470,7 @@ http://www.flickr.com/photos/paulmannix/3188722659/
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). The original image and information can be found at:
-http://commons.wikimedia.org/wiki/File:Angkor_Ta_Prohm_Sept2009.jpg
+                                        <string key="content">). The original image and information can be found at: http://commons.wikimedia.org/wiki/File:Angkor_Ta_Prohm_Sept2009.jpg
 
 “The Great Pyramid of Giza, Egypt” is by Kamenatehla .sk (http://www.flickr.com/photos/kamenatehla/) and is licensed under Creative Commons Attribution-NoDerivs 2.0 Generic (CC BY-ND 2.0) (</string>
                                         <attributes>
@@ -2566,8 +2492,7 @@ http://commons.wikimedia.org/wiki/File:Angkor_Ta_Prohm_Sept2009.jpg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). The original image and information can be found at:
-http://www.flickr.com/photos/kamenatehla/6953076697/
+                                        <string key="content">). The original image and information can be found at: http://www.flickr.com/photos/kamenatehla/6953076697/
 
 “Independence Hall, Philadelphia, Pennsylvania” is by </string>
                                         <attributes>
@@ -2627,8 +2552,7 @@ http://www.flickr.com/photos/kamenatehla/6953076697/
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content"> license (http://creativecommons.org/licenses/by-sa/2.0/deed.en). The original image and information can be found at:
-http://www.flickr.com/photos/michaelrighi/2761610630/
+                                        <string key="content"> license (http://creativecommons.org/licenses/by-sa/2.0/deed.en). The original image and information can be found at: http://www.flickr.com/photos/michaelrighi/2761610630/
 
 “Walls of Derry, Derry, Ireland” is by </string>
                                         <attributes>
@@ -2707,8 +2631,7 @@ http://www.flickr.com/photos/michaelrighi/2761610630/
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). The original image and additional information may be found at:
-http://commons.wikimedia.org/wiki/File:Cannon_on_Derry_City_Walls_SMC_2007.jpg
+                                        <string key="content">). The original image and additional information may be found at: http://commons.wikimedia.org/wiki/File:Cannon_on_Derry_City_Walls_SMC_2007.jpg
 
 “Nassau Hall, Princeton University, New Jersey” is by </string>
                                         <attributes>
@@ -2787,8 +2710,7 @@ http://commons.wikimedia.org/wiki/File:Cannon_on_Derry_City_Walls_SMC_2007.jpg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). The original image and additional information may be found at:
-http://commons.wikimedia.org/wiki/File:Nassau-hall-princeton.JPG
+                                        <string key="content">). The original image and additional information may be found at: http://commons.wikimedia.org/wiki/File:Nassau-hall-princeton.JPG
 
 “Chimney Rock, Nebraska” is by NorthernMagnolia and is licensed under the </string>
                                         <attributes>
@@ -2847,9 +2769,7 @@ http://commons.wikimedia.org/wiki/File:Nassau-hall-princeton.JPG
                                             <color key="NSStrokeColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment>
-                                        <string key="content">). The original image and additional information may be found at:
-</string>
+                                    <fragment content="). The original image and additional information may be found at: ">
                                         <attributes>
                                             <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <font key="NSFont" size="12" name="Helvetica"/>
@@ -2948,8 +2868,7 @@ http://commons.wikimedia.org/wiki/File:Nassau-hall-princeton.JPG
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). The original image and additional information may be found at:
- http://commons.wikimedia.org/wiki/File:Bell_Tower,_International_Peace_Garden,_May_2007.jpg
+                                        <string key="content">). The original image and additional information may be found at: http://commons.wikimedia.org/wiki/File:Bell_Tower,_International_Peace_Garden,_May_2007.jpg
 
 “John Brown’s Cabin, Osawatomie, Kansas” is by </string>
                                         <attributes>
@@ -3028,8 +2947,7 @@ http://commons.wikimedia.org/wiki/File:Nassau-hall-princeton.JPG
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). The original image and additional information may be found at:
-http://commons.wikimedia.org/wiki/File:House_at_John_Brown's_Farm.jpg
+                                        <string key="content">). The original image and additional information may be found at: http://commons.wikimedia.org/wiki/File:House_at_John_Brown's_Farm.jpg
 
 “Sibyl’s Cave, Cumae, Naples, Italy” is by </string>
                                         <attributes>
@@ -3089,8 +3007,7 @@ http://commons.wikimedia.org/wiki/File:House_at_John_Brown's_Farm.jpg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content"> license. The original image and additional information may be found at:
-http://www.flickr.com/photos/carolemage/8138836411/
+                                        <string key="content"> license. The original image and additional information may be found at: http://www.flickr.com/photos/carolemage/8138836411/
 
 “Fort McHenry, Baltimore, Maryland</string>
                                         <attributes>
@@ -3187,8 +3104,7 @@ http://www.flickr.com/photos/carolemage/8138836411/
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). The original image and additional information may be found at:
-http://commons.wikimedia.org/wiki/File:FtMcHenryEntrance.JPG
+                                        <string key="content">). The original image and additional information may be found at: http://commons.wikimedia.org/wiki/File:FtMcHenryEntrance.JPG
 
 “Petra, Jordan” is by Dennis Jarvis (</string>
                                         <attributes>
@@ -3229,8 +3145,7 @@ http://commons.wikimedia.org/wiki/File:FtMcHenryEntrance.JPG
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). The original image and additional information may be found at:
-http://www.flickr.com/photos/archer10/2216880341/
+                                        <string key="content">). The original image and additional information may be found at: http://www.flickr.com/photos/archer10/2216880341/
 
 “Ancient Gate, Walls of Suwon, South Korea” is by </string>
                                         <attributes>
@@ -3308,9 +3223,7 @@ http://www.flickr.com/photos/archer10/2216880341/
                                             <color key="NSStrokeColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment>
-                                        <string key="content">). The original image and additional information may be found at:
-</string>
+                                    <fragment content="). The original image and additional information may be found at: ">
                                         <attributes>
                                             <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <font key="NSFont" size="12" name="Helvetica"/>
@@ -3409,8 +3322,7 @@ http://www.flickr.com/photos/archer10/2216880341/
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). The original image and additional information may be found at:
-http://commons.wikimedia.org/wiki/File:Kirche-St-Lo-2011_0201.jpg
+                                        <string key="content">). The original image and additional information may be found at: http://commons.wikimedia.org/wiki/File:Kirche-St-Lo-2011_0201.jpg
 
 “Semenaire de Quebec, Quebec City, Canada” is by </string>
                                         <attributes>
@@ -3470,8 +3382,7 @@ http://commons.wikimedia.org/wiki/File:Kirche-St-Lo-2011_0201.jpg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content"> license (http://creativecommons.org/licenses/by-sa/2.5/deed.en). The original image and additional information may be found at:
-http://commons.wikimedia.org/wiki/File:Qu%C3%A9bec_-_S%C3%A9minaire_5.jpg
+                                        <string key="content"> license (http://creativecommons.org/licenses/by-sa/2.5/deed.en). The original image and additional information may be found at: http://commons.wikimedia.org/wiki/File:Qu%C3%A9bec_-_S%C3%A9minaire_5.jpg
 
 “Luxembourg Palace, Paris, France” is by Jorge Royan and is licensed under the </string>
                                         <attributes>
@@ -3531,8 +3442,7 @@ http://commons.wikimedia.org/wiki/File:Qu%C3%A9bec_-_S%C3%A9minaire_5.jpg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). The original image and additional information may be found at:
-http://commons.wikimedia.org/wiki/File:Paris_-_The_Palace_de_Luxembourg_-_2992.jpg
+                                        <string key="content">). The original image and additional information may be found at: http://commons.wikimedia.org/wiki/File:Paris_-_The_Palace_de_Luxembourg_-_2992.jpg
 
 “Petrified Forest, Calistoga, California” is by </string>
                                         <attributes>
@@ -3611,8 +3521,7 @@ http://commons.wikimedia.org/wiki/File:Paris_-_The_Palace_de_Luxembourg_-_2992.j
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). The original image and additional information may be found at:
-http://commons.wikimedia.org/wiki/File:Petrified_Forest_-_Stierch_D.jpg
+                                        <string key="content">). The original image and additional information may be found at: http://commons.wikimedia.org/wiki/File:Petrified_Forest_-_Stierch_D.jpg
 
 “Fort Clatsop, Oregon” is by Don Graham (http://www.flickr.com/photos/23155134@N06/) and is licensed under the </string>
                                         <attributes>
@@ -3672,8 +3581,7 @@ http://commons.wikimedia.org/wiki/File:Petrified_Forest_-_Stierch_D.jpg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). The original image and additional information may be found at: 
-http://www.flickr.com/photos/23155134@N06/10004011004/
+                                        <string key="content">). The original image and additional information may be found at: http://www.flickr.com/photos/23155134@N06/10004011004/
 
 “Toyotomi Castle, Osaka, Japan” is by </string>
                                         <attributes>
@@ -3771,8 +3679,7 @@ http://www.flickr.com/photos/23155134@N06/10004011004/
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). The original image and additional information may be found at:
-http://en.wikipedia.org/wiki/File:Osaka_Castle_02bs3200.jpg
+                                        <string key="content">). The original image and additional information may be found at: http://en.wikipedia.org/wiki/File:Osaka_Castle_02bs3200.jpg
 
 “Mount Rainier, Washington” is by </string>
                                         <attributes>
@@ -3850,9 +3757,7 @@ http://en.wikipedia.org/wiki/File:Osaka_Castle_02bs3200.jpg
                                             <color key="NSStrokeColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment>
-                                        <string key="content">). The original image and additional information may be found at:
-</string>
+                                    <fragment content="). The original image and additional information may be found at: ">
                                         <attributes>
                                             <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <font key="NSFont" size="12" name="Helvetica"/>
@@ -3951,8 +3856,7 @@ http://en.wikipedia.org/wiki/File:Osaka_Castle_02bs3200.jpg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). The original image and additional information may be found at:
-http://commons.wikimedia.org/wiki/File:Washoe_County_Courthouse.jpg
+                                        <string key="content">). The original image and additional information may be found at: http://commons.wikimedia.org/wiki/File:Washoe_County_Courthouse.jpg
 
 “Hans Christian Andersen Home, Odense, Denmark” is by </string>
                                         <attributes>
@@ -4030,9 +3934,7 @@ http://commons.wikimedia.org/wiki/File:Washoe_County_Courthouse.jpg
                                             <color key="NSStrokeColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment>
-                                        <string key="content">). The original image and additional information may be found at:
-</string>
+                                    <fragment content="). The original image and additional information may be found at: ">
                                         <attributes>
                                             <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <font key="NSFont" size="12" name="Helvetica"/>
@@ -4150,8 +4052,7 @@ http://commons.wikimedia.org/wiki/File:Washoe_County_Courthouse.jpg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). The original image and additional information may be found at:
-http://commons.wikimedia.org/wiki/File:Craters_of_the_Moon_National_Monument-10.jpg
+                                        <string key="content">). The original image and additional information may be found at: http://commons.wikimedia.org/wiki/File:Craters_of_the_Moon_National_Monument-10.jpg
 
 “Yellowstone National Park, Wyoming” is by </string>
                                         <attributes>
@@ -4230,8 +4131,7 @@ http://commons.wikimedia.org/wiki/File:Craters_of_the_Moon_National_Monument-10.
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). The original image and additional information may be found at:
-http://commons.wikimedia.org/wiki/File:Bison_near_a_hot_spring_in_Yellowstone.JPG
+                                        <string key="content">). The original image and additional information may be found at: http://commons.wikimedia.org/wiki/File:Bison_near_a_hot_spring_in_Yellowstone.JPG
 
 “Petrified Forest, Arizona” is by </string>
                                         <attributes>
@@ -4310,8 +4210,7 @@ http://commons.wikimedia.org/wiki/File:Bison_near_a_hot_spring_in_Yellowstone.JP
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). The original image and additional information may be found at:
-http://commons.wikimedia.org/wiki/File:Petrified_Forest_National_Park_Wood.jpg
+                                        <string key="content">). The original image and additional information may be found at: http://commons.wikimedia.org/wiki/File:Petrified_Forest_National_Park_Wood.jpg
 
 “Aztec Ruins National Monument, New Mexico” is by Lorax and is licensed under the </string>
                                         <attributes>
@@ -4371,8 +4270,7 @@ http://commons.wikimedia.org/wiki/File:Petrified_Forest_National_Park_Wood.jpg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). The original image and additional information may be found at:
-http://commons.wikimedia.org/wiki/File:Aztec_ruins_national_monument_20030922_100357_1.1504x1000.jpg
+                                        <string key="content">). The original image and additional information may be found at: http://commons.wikimedia.org/wiki/File:Aztec_ruins_national_monument_20030922_100357_1.1504x1000.jpg
 
 “Mesa Verde, Colorado” is by </string>
                                         <attributes>
@@ -4451,8 +4349,7 @@ http://commons.wikimedia.org/wiki/File:Aztec_ruins_national_monument_20030922_10
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). The original image and additional information may be found at:
-http://commons.wikimedia.org/wiki/File:MesaVerdeNationalParkCliffPalace.jpg
+                                        <string key="content">). The original image and additional information may be found at: http://commons.wikimedia.org/wiki/File:MesaVerdeNationalParkCliffPalace.jpg
 
 “Boston Avenue Church, Tulsa, Oklahoma” is by </string>
                                         <attributes>
@@ -4530,9 +4427,7 @@ http://commons.wikimedia.org/wiki/File:MesaVerdeNationalParkCliffPalace.jpg
                                             <color key="NSStrokeColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment>
-                                        <string key="content">). The original image and additional information may be found at:
-</string>
+                                    <fragment content="). The original image and additional information may be found at: ">
                                         <attributes>
                                             <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <font key="NSFont" size="12" name="Helvetica"/>
@@ -4612,8 +4507,7 @@ http://commons.wikimedia.org/wiki/File:MesaVerdeNationalParkCliffPalace.jpg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). The original image and additional information may be found at:
-http://commons.wikimedia.org/wiki/File:Panama_Canal_Miraflores_Locks.jpg
+                                        <string key="content">). The original image and additional information may be found at: http://commons.wikimedia.org/wiki/File:Panama_Canal_Miraflores_Locks.jpg
 
 The tutorial overlay demonstrating how to use the app made use of a tap gesture image by openexhibits (</string>
                                         <attributes>
@@ -4654,8 +4548,7 @@ The tutorial overlay demonstrating how to use the app made use of a tap gesture 
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">). The original image and additional information may be found at:
-http://www.flickr.com/photos/openexhibits/5884451755/sizes/l/in/photostream/
+                                        <string key="content">). The original image and additional information may be found at: http://www.flickr.com/photos/openexhibits/5884451755/sizes/l/in/photostream/
 
 </string>
                                         <attributes>
